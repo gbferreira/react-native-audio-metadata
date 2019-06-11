@@ -1,2 +1,2 @@
-import OptmisticList from './src/OptimisticList';
-export default OptmisticList;
+import OptmisticListView from './src/OptimisticListView';
+export default OptmisticListView;
