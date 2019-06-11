@@ -7,7 +7,7 @@ import {
   Dimensions,
   NativeModules
 } from 'react-native';
-import Inview from 'react-native-inview'
+// import Inview from 'react-native-inview';
 
 const style = [
   {
@@ -351,14 +351,14 @@ export default class OptmisticListView extends Component {
 
   renderItem(item, index) {
     return (
-      <Inview 
+      <View 
         onChange={inView => console.log('Inview: '+ inView)}
         key={item.num + item.name + index}
         onLayout={(e) => { this.layoutViews[index] = e.nativeEvent; }}
         style={{ height: item.height, ...style[Math.floor(Math.random() * (3))] }}
       >
         <Text style={{ color: 'yellow', fontSize: 20 }}>{item.name}</Text>
-      </Inview>
+      </View>
     );
   }
 
