@@ -18,6 +18,6 @@
     "npm": "^6.9.0",
     "react": "^16.8.6",
     "react-native": "^0.59.9",
-    "react-native-inview": "^1.1.2",
+    "react-native-inview": "^1.1.2"
   }
 }
