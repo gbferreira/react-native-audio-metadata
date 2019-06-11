@@ -1,0 +1,24 @@
+{
+  "name": "react-native-optimistic-list",
+  "version": "1.0.0",
+  "description": "This is a react-native component who limit the views rendered to optimize memory usage and reuse the views them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "list",
+    "optimistic"
+  ],
+  "author": "Class App Team",
+  "license": "MIT",
+  "dependencies": {
+    "install": "^0.12.2",
+    "npm": "^6.9.0",
+    "react": "^16.8.6",
+    "react-native": "^0.59.9",
+    "react-native-inview": "^1.1.2",
+    "react-visibility-sensor": "^5.0.2"
+  }
+}
