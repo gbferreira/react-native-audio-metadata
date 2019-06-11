@@ -7,7 +7,7 @@ import {
   Dimensions,
   NativeModules
 } from 'react-native';
-// import Inview from 'react-native-inview';
+import Inview from 'react-native-inview';  
 
 const style = [
   {
