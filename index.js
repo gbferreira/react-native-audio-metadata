@@ -1,2 +1,2 @@
-import OptmisticListView from './src/OptimisticListView';
-export default OptmisticListView;
+import AudioMetadata from './src/AudioMetadata';
+export default AudioMetadata;

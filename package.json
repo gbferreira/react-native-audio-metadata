@@ -1,20 +1,20 @@
 {
-  "name": "react-native-optimistic-list-view",
+  "name": "react-native-audio-metadata",
   "version": "1.0.0",
-  "description": "This is a react-native component who limit the views rendered to optimize memory usage and reuse the views them.",
+  "description": "This package allow load remote audio information, passing only the URL.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react-native",
-    "list",
-    "optimistic"
+    "audio",
+    "metadata"
   ],
-  "author": "Class App Team",
+  "author": "Gabriel Ferreira de Lima",
   "license": "MIT",
   "dependencies": {
     "react": "16.6.3",
-    "react-native": "0.57.8"
+    "react-native": "0.63.4"
   }
 }

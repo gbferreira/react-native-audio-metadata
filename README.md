@@ -1,19 +1,36 @@
-# react-native-optmistic-list
-This is a react-native component who limit the views rendered to optimize memory usage and reuse the views them.
+# react-native-audio-metadata
 
-# Features
-
-# Installation
+## Install
  
  ```
- npm i react-native-optimistic-list
+ npm i react-native-audio-metadata 
  ```
 
-## Android
+ or 
+```
+ yarn add react-native-audio-metadata 
+ ```
 
-## IOS
 
-# License
+ ## How it works ?
+
+To use this library you need only pass the url required information:
+
+````
+
+import AudioMetadata from 'reat-native-audio-metadata';
+
+AudioMetadata.load('http://google.com.br/audio.aac');
+
+
+````
+
+## Suported types
+
+- aac
+
+
+## License
 MIT License
 
 Copyright (c) 2019 Gabriel Ferreira

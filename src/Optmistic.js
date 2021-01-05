@@ -20,7 +20,7 @@ const style = [
   }
 ];
 
-export default class OptmisticListView extends Component {
+export default class OptmisticList extends Component {
   constructor(props) {
     super(props);
 
