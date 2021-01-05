@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/gbferreira/react-native-audio-metadata"
   s.license      = "MIT"
   s.authors      = { "Gabriel Ferreira" => "gabrielferreira@gmail.com" }
-  s.platforms    = { :ios => "9.0" }
+  s.platforms    = { :ios => "10.0" }
   s.source       = { :git => "https://github.com/gbferreira/react-native-audio-metadata.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,c,m,swift}"
