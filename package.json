@@ -1,20 +1,40 @@
 {
   "name": "react-native-audio-metadata",
+  "title": "React Native Audio Metadata",
   "version": "1.0.0",
-  "description": "This package allow load remote audio information, passing only the URL.",
+  "description": "TODO",
   "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "react-native-audio-metadata.podspec"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-audio-metadata.git",
+    "baseUrl": "https://github.com/github_account/react-native-audio-metadata"
+  },
   "keywords": [
-    "react-native",
-    "audio",
-    "metadata"
+    "react-native"
   ],
-  "author": "Gabriel Ferreira de Lima",
+  "author": {
+    "name": "Gabriel Ferreira",
+    "email": "gabrielferreira@gmail.com"
+  },
   "license": "MIT",
-  "dependencies": {
-    "react": "16.6.3",
-    "react-native": "0.63.4"
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
   }
 }

@@ -1,2 +1,5 @@
-import AudioMetadata from './src/AudioMetadata';
+import { NativeModules } from 'react-native';
+
+const { AudioMetadata } = NativeModules;
+
 export default AudioMetadata;
